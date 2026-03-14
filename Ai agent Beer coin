@@ -1,0 +1,4 @@
+npx create-next-app@latest beer-coin-agent-app --typescript --eslint --tailwind --app --src-dir --import-alias "@/*"
+cd beer-coin-agent-app
+npm install @solana/web3.js @solana/wallet-adapter-react @solana/wallet-adapter-wallets @solana/wallet-adapter-base @solana/wallet-adapter-react-ui @pump-fun/agent-payments-sdk@3.0.0  # adjust version if needed
+npm install bs58 dotenv
